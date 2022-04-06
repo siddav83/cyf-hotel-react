@@ -1,11 +1,13 @@
 import React from "react";
+import glasgow from "./glasgow.jpeg";
 
 const TouristInfoCards = () => {
   return (
     <div className="card">
-      <img src="..." className="card-img-top" />
+      <img src={glasgow} className="card-img-top" />
       <div className="card-body">
-        <a href="#" className="btn btn-primary">
+        <h2>Glasgow</h2>
+        <a href="https://peoplemakeglasgow.com/" className="btn btn-primary">
           Go somewhere
         </a>
       </div>
