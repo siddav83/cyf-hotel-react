@@ -9,6 +9,8 @@ const App = () => {
     <div className="App">
       <Header />
       <TouristInfoCards />
+      <TouristInfoCards />
+      <TouristInfoCards />
       <Bookings />
     </div>
   );
