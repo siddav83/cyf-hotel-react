@@ -3,16 +3,16 @@ import glasgow from "./glasgow.jpeg";
 
 const TouristInfoCards = () => {
   return (
-    <div className="card text-center" style={{ width: 18 }}>
-      <img src={glasgow} className="card-img-top" />
-      <div className="card-body text-center">
-        <h2 className=" text-center">Glasgow</h2>
-        <a
-          className="info-box pd-1"
-          href="https://peoplemakeglasgow.com/"
-          className="btn btn-primary"
-        >
-          <p>More info</p>
+    <div className="card" style={{ width: 200 }}>
+      <img src={glasgow} className="card-img-top" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" className="btn btn-primary">
+          Go somewhere
         </a>
       </div>
     </div>
