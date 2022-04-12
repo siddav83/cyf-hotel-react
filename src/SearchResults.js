@@ -4,7 +4,7 @@ const SearchResults = ({ results }) => {
   console.log(results);
   return (
     <>
-      <table>
+      <table className="table table-striped w-auto">
         <thead>
           <tr>
             <th scope="col">id</th>
@@ -21,12 +21,14 @@ const SearchResults = ({ results }) => {
         {results.map(result => (
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td>{result.id}</td>
+              <th scope="row">{result.id}</th>
               <td>{result.title}</td>
               <td>{result.firstName}</td>
               <td>{result.surname}</td>
               <td>{result.email}</td>
+              <td>{result.roomId}</td>
+              <td>{result.checkInDate}</td>
+              <td>{result.checkOutDate}</td>
             </tr>
           </tbody>
         ))}
