@@ -5,17 +5,18 @@ import Footer from "./Footer";
 import "./App.css";
 import TouristInfoCards from "./TouristInfoCards";
 import SearchResults from "./SearchResults";
+import Restaurant from "./Restaurant";
 
 const App = () => {
   return (
-    <div className="App container">
+    <div className="">
       <Header />
       <TouristInfoCards />
-      <TouristInfoCards />
-      <TouristInfoCards />
+      {/* <TouristInfoCards />
+      <TouristInfoCards /> */}
       <Bookings />
+      <Restaurant />
       {/* <SearchResults /> */}
-
       <Footer />
     </div>
   );
