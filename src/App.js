@@ -12,8 +12,6 @@ const App = () => {
     <div className="">
       <Header />
       <TouristInfoCards />
-      {/* <TouristInfoCards />
-      <TouristInfoCards /> */}
       <Bookings />
       <Restaurant />
       {/* <SearchResults /> */}
