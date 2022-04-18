@@ -1,4 +1,5 @@
 import React from "react";
+import Bookings from "./Bookings";
 
 const SearchResults = ({ results }) => {
   console.log(results);

@@ -10,12 +10,12 @@ import Restaurant from "./Restaurant";
 const App = () => {
   return (
     <div className="">
-      <Header />
-      <TouristInfoCards />
+      {/* <Header /> */}
+      {/* <TouristInfoCards /> */}
       <Bookings />
-      <Restaurant />
-      {/* <SearchResults /> */}
-      <Footer />
+      {/* <Restaurant /> */}
+      <SearchResults />
+      {/* <Footer /> */}
     </div>
   );
 };
